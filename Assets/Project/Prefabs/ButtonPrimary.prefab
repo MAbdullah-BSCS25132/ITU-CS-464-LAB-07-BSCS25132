@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 7628922216456756837}
   - component: {fileID: 929084931239250610}
   - component: {fileID: 2224803100827889070}
+  - component: {fileID: 7023826333205605717}
+  - component: {fileID: 2258611473194511059}
   m_Layer: 5
   m_Name: ButtonPrimary
   m_TagString: Untagged
@@ -121,6 +123,33 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7023826333205605717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4321939719615439546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80cbff14b14fddf488b411b0a547ab91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonFeedback
+  pressedScale: 0.94
+--- !u!114 &2258611473194511059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4321939719615439546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb75688a599097449e8c2374fa7c1ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NavButton
+  action: 0
+  target: 1
 --- !u!1 &5938045761301661517
 GameObject:
   m_ObjectHideFlags: 0
