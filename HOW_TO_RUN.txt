@@ -1,0 +1,42 @@
+ORBIT RUSH - HOW TO RUN
+Muhammad Abdullah, BSCS-25132 (B), ITU CS-464 Lab 07
+
+This is a mobile game menu made in Unity. It opens in a small
+portrait window. You can resize the window with the mouse.
+
+------------------------------------------------------------
+WINDOWS
+------------------------------------------------------------
+1. Right-click the zip file and choose Extract All.
+2. Open the extracted folder.
+3. Double-click BSCS25132-Lab07-GameMenu.exe
+   (keep all the other files and folders next to it).
+4. If Windows SmartScreen shows a warning, click
+   "More info" and then "Run anyway".
+5. To close the game, press Alt + F4.
+
+------------------------------------------------------------
+MAC
+------------------------------------------------------------
+1. Double-click the zip file to unzip it.
+2. Open Terminal and go into the unzipped folder:
+   cd path/to/BSCS25132_Lab07_Mac
+   (Tip: type "cd " and drag the folder into Terminal.)
+3. Run these two commands, one by one:
+   chmod -R +x BSCS25132_Lab07_Mac.app/Contents/MacOS
+   xattr -cr BSCS25132_Lab07_Mac.app
+4. Double-click BSCS25132_Lab07_Mac.app
+5. If the Mac still blocks it, right-click the app,
+   choose Open, then click Open.
+6. To close the game, press Cmd + Q.
+
+------------------------------------------------------------
+HOW TO USE THE GAME
+------------------------------------------------------------
+Use the mouse to click like touching a phone screen.
+Title > Main Menu > Play > Mode > Level (1 to 3) > Loadout >
+Launch > Pause or Finish Run > Results.
+Shop, Settings and Credits are on the Main Menu.
+Use the "<" button at the top-left to go back.
+
+Source code and demo video: see the GitHub repository README.
