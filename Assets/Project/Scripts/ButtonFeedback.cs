@@ -11,6 +11,9 @@ public class ButtonFeedback : MonoBehaviour, IPointerDownHandler, IPointerUpHand
     public void OnPointerDown(PointerEventData eventData)
     {
         ScaleTo(pressedScale, 0.08f, Ease.OutQuad);
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayClick();
     }
 
     public void OnPointerUp(PointerEventData eventData)

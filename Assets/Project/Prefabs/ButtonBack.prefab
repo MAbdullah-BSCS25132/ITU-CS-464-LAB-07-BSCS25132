@@ -40,15 +40,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5382289248177449051, guid: d938cdeb5ff466043a6415b8f361ffb0, type: 3}
       propertyPath: m_Color.b
-      value: 0.27058825
+      value: 0.33333334
       objectReference: {fileID: 0}
     - target: {fileID: 5382289248177449051, guid: d938cdeb5ff466043a6415b8f361ffb0, type: 3}
       propertyPath: m_Color.g
-      value: 0.12941177
+      value: 0.16862746
       objectReference: {fileID: 0}
     - target: {fileID: 5382289248177449051, guid: d938cdeb5ff466043a6415b8f361ffb0, type: 3}
       propertyPath: m_Color.r
-      value: 0.101960786
+      value: 0.13725491
       objectReference: {fileID: 0}
     - target: {fileID: 6416870206325065786, guid: d938cdeb5ff466043a6415b8f361ffb0, type: 3}
       propertyPath: action
@@ -141,5 +141,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9056707075148480595, guid: d938cdeb5ff466043a6415b8f361ffb0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 558159628930183305}
   m_SourcePrefab: {fileID: 100100000, guid: d938cdeb5ff466043a6415b8f361ffb0, type: 3}
+--- !u!1 &5608442477321611750 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9056707075148480595, guid: d938cdeb5ff466043a6415b8f361ffb0, type: 3}
+  m_PrefabInstance: {fileID: 3493337206650137013}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &558159628930183305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5608442477321611750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
+  m_EffectColor: {r: 0.22745098, g: 0.2627451, b: 0.45882353, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
